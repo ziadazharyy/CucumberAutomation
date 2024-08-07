@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Yassir Task Suite" parallel="classes" thread-count="8">
+    <test name="Tests">
+        <classes>
+            <class name="testRunner.TestRunner"/>
+            <class name="testCases.NormalTestCases"/>
+        </classes>
+    </test>
+</suite>
